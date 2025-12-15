@@ -1,1 +1,9 @@
+@font-face {
+  font-family: founders;
+  src: url("../src/assets/FoundersGroteskXCond-Lt.ttf");
+}
 @import "tailwindcss";
+
+@theme {
+  --font-founders: founders,"sans-serif";
+}
