@@ -27,7 +27,7 @@ function Navbar() {
     initial={{y: 0}}
     animate={{y: hidden ? "-100%" : "0%"}}
     transition={{duration: 0.35, ease: "easeInOut"}}
-    className='fixed z-[999] w-full px-20 py-8 font-poppins flex justify-between intems-center'>
+    className='fixed z-[999] w-full px-20 py-8 font-poppins flex justify-between intems-center bg-opacity-30 backdrop-blur-md'>
       <div className="logo">
         {console.log(window.scrollY)}
         <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
